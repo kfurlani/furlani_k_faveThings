@@ -1,0 +1,17 @@
+{
+    "Fave1": {
+        "image":"cats.jpg",
+        "favourite thing":"My Cats",
+        "description":"i don't know"
+    },
+    "Fave2": {
+        "image":"cats.jpg",
+        "favourite thing":"My Cats",
+        "description":"i don't know"
+    },
+    "Fave3": {
+        "image":"cats.jpg",
+        "favourite thing":"My Cats",
+        "description":"i don't know"
+    }
+  }

@@ -1,17 +1,17 @@
 {
-    "Fave1": {
+    "thing1": {
         "image":"cats.jpg",
         "favouriteThing":"My Cats",
-        "description":"i don't know"
+        "description":"This is Neo (right) and Muji (left). Will add more info... "
     },
-    "Fave2": {
-        "image":"cats.jpg",
-        "favouriteThing":"My Cats",
-        "description":"i don't know"
+    "thing2": {
+        "image":"reading.jpg",
+        "favouriteThing":"Reading",
+        "description":"i love reading!! will add more info.."
     },
-    "Fave3": {
-        "image":"cats.jpg",
-        "favouriteThing":"My Cats",
-        "description":"i don't know"
+    "thing3": {
+        "image":"playingCards.jpg",
+        "favouriteThing":"History and Art",
+        "description":" History and Art is cool!! I have a Bachelor of Arts degree in Classical Studies from the University of Guelph " 
     }
   }

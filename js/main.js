@@ -1,12 +1,12 @@
 
 
-import { getData } from "./modules/dataMiner";
+import { getData } from "./modules/dataMiner.js";
 
 (() => {
     console.log('fired!');
 
-    let theThings = document.querySelector('#team-section'),
-        theTemplate = document.querySelector('#bio-template').content, 
+    let theThings = document.querySelector('.fave-lightbox'),
+        theTemplate = document.querySelector('#things-template').content, 
         faveData;
         debugger;
 
@@ -18,8 +18,6 @@ import { getData } from "./modules/dataMiner";
 
         faveData = data;
 
-
-        
         const things =Object.keys(data); 
 
         things.forEach(thing => {
@@ -28,11 +26,11 @@ import { getData } from "./modules/dataMiner";
             let containers = panel.firstElementChild.children;  
 
             containers[0].querySelector('img').src = `images/${data[thing].image}`;
-            containers[0].querySelector('button').id = thing;
-            containers[0].querySelector('button').addEventListener('click', showThing)
+            //containers[0].querySelector('img').id = thing;
+            //containers[0].querySelector('button').addEventListener('click', showThing);
 
-            containers[1].textContent = data[thing].name;
-            containers[2].textContent = data[thing].role;
+            containers[1].textContent = data[thing].favouriteThing;
+            containers[2].textContent = data[thing].description;
 
             theThings.appendChild(panel);
 

@@ -2,12 +2,12 @@
     "thing1": {
         "image":"cats.jpg",
         "favouriteThing":"My Cats",
-        "description":"This is Neo (right) and Muji (left). Will add more info... "
+        "description":"This is Neo (right) and Muji (left). "
     },
     "thing2": {
         "image":"reading.jpg",
         "favouriteThing":"Reading",
-        "description":"i love reading!! will add more info.."
+        "description":"i love reading!! "
     },
     "thing3": {
         "image":"playingCards.jpg",

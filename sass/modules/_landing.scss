@@ -14,3 +14,16 @@
         font-size: 24px;
     }
 }
+
+#things-template {
+    img {
+    display: grid;
+    grid-area: center;
+    }
+
+    .fave_thing {
+    display: grid;
+    grid-area: center;
+    font-size: 18px;
+    }
+}
